@@ -13,11 +13,11 @@
 .jogo {
     width: 100%;            /* Ocupa toda largura */
     height: 400px;          /* Altura fixa */
-    border-bottom: 50px solid green; /* Cria o chão */
+    border-bottom: 50px solid rgb(230, 61, 193); /* Cria o chão */
     margin: 0 auto;         /* Centraliza */
     position: relative;     /* IMPORTANTE: elementos com position:absolute ficam DENTRO */
     overflow: hidden;       /* Esconde o que sai da tela */
-    background: linear-gradient(#87CEEB, #E0F6FF); /* Céu azul */
+    background: linear-gradient(#fc66ef, #f1b8ea); /* Céu azul */
 }
 
 /* ================================================== */
@@ -50,7 +50,7 @@
 /* NUVEM - Elemento de fundo */
 /* ================================================== */
 .nuvem {
-    width: 500px;           /* Nuvem bem grande */
+    width: 300px;           /* Nuvem bem grande */
     position: absolute;
     animation: mexerNuvem 20s infinite linear; /* Mais lenta (fundo) */
 }
@@ -86,14 +86,14 @@
     border-radius: 10px;    /* Borda arredondada */
     border: none;           /* Sem borda */
     font-size: 20px;        /* Tamanho da letra */
-    background-color: #ff0000; /* Vermelho */
+    background-color: #f8aff2; /* Vermelho */
     color: white;           /* Letra branca */
     cursor: pointer;        /* Mãozinha ao passar o mouse */
     font-weight: bold;      /* Negrito */
 }
 
 .reiniciar:hover {
-    background-color: #cc0000; /* Vermelho mais escuro ao passar mouse */
+    background-color: #d113a2; /* Vermelho mais escuro ao passar mouse */
 }
 
 /* ================================================== */
