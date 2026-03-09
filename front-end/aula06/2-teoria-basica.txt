@@ -1,0 +1,39 @@
+# HTTP e Status Codes 
+---
+clientes <> servidor 
+Comunicação usando ***HTTP***
+---
+#Toda requisição possui:
+- Metodo (ação)
+- Status Code (resposta)
+---
+#Metodos HTTP
+---
+GET (Read): Solicita a representação de um recurso específico, sem modificar nada no servidor. Os parâmetros são enviados na URL.
+POST (Create): Cria um novo recurso ou envia dados para processamento no servidor. Os dados são enviados no corpo da requisição e não é idempotente (chamadas repetidas criam múltiplos recursos).
+PUT (Update/Replace): Substitui completamente um recurso existente pelos novos dados enviados. É idempotente, ou seja, o resultado é o mesmo independentemente de quantas vezes for chamado.
+PATCH (Partial Update): Aplica modificações parciais a um recurso. É preferível ao PUT para atualizar apenas um ou dois campos, mantendo o restante intacto.
+DELETE (Delete): Remove um recurso específico do servidor
+---
+#Status Code 
+
+2xx -Sucesso
+3xx - Redirecionamentoo
+4xx - Erro do clientes
+5xx - Erro do servidor
+---
+#Principais Status
+
+-200 OK: Sucesso.
+-201 Criado: Sucesso ao criar (POST).
+-204 Sem Conteúdo: Sucesso ao deletar (DELETE).
+-400 Requisição Inválida: Erro nos dados enviados.
+-401 Não Autorizado: Falta login.
+-403 Proibido: Sem permissão.
+-404 Não Encontrado: Link ou recurso não existe.
+
+---
+#Erros Do Servidor
+
+-500 Erro no Servidor: Falha interna do sistema.
+-503 (Serviço Indisponível) acontece quando o servidor está temporariamente fora do ar.

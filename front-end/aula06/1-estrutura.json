@@ -1,0 +1,21 @@
+{
+    "cachorro":{
+        "nome":"haru",
+        "idade":5,
+        "raca":"Bernese",
+        "vacinado": true,
+        "peso":50,
+        "brinquedos":["bola","osso","frisbee"],
+        "dono":{
+            "nome":"jonas",
+            "telefone":"11 911797806"
+        }
+    }
+
+
+
+
+
+
+
+}
