@@ -1,14 +1,14 @@
 
 
 [
-    {
+{
  "FilmesFavs":{
     "Titulo": "Nada de novo no front",
     "Ano": 2022,
     "diretor":"Edward Berger",
-    "gêneros":"Guerra, drama, história, tragédia.",
- },
-    }
+    "gêneros":"Guerra, drama, história, tragédia."
+ }
+},
 
 
 {
@@ -16,16 +16,16 @@
     "nome": "Jose",
     "idade": 16,
     " notas":10,
-    "aprovado":true,
+    "aprovado":true
  }
-}
+},
 
 {
     "produto": {
         "nome": "Sonho de valsa",
         "preço":2.50,
         "quantidade":1,
-        " disponível":"true",
+        " disponível":true
 
     }
 }
